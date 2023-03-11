@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Inicio</title>
+</head>
+<body>
+    <form method="POST" action="/loginAction/">
+        {% csrf_token %}
+        <h1>Bienvenidos al ISTG!</h1>
+        <h3>{{ err }}</h3>
+        <input type="text" name="userInTx" placeholder="Usuario" required="required"/>
+        <input type="password" name="passwordInPs" placeholder="Contraseña" required="required"/>
+        <button type="submit" class="btn btn-primary btn-block btn-large">Login</button>
+    </form>
+</body>
+</html>

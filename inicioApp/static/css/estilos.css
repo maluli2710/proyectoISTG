@@ -1,0 +1,13 @@
+p {
+font-size: 20pt;
+color:  #fbc7d4;
+    font-family: arial,helvetica;
+   font-weight: normal;
+}
+H1 {front-size : 36pt; font-family: TimesNewRoman; text-align :center;background-color: #fbc7d4;}
+BODY{
+    background-color: coral;
+    font-family: Arial;
+    color: white;
+    font-size: 20pt;
+}

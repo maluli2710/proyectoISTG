@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Menu</title>
+</head>
+<body>
+<h1>Usuario: {{ usuarioStr }}</h1>
+    <div class="container">
+        <h2>Listado de trabajadores</h2>
+
+        <ul>
+            {% for trabajadorRegistro in list %}
+                <li>{{ trabajadorRegistro.nombre }}</li>
+            {% endfor %}
+        </ul>
+
+    </div>
+</body>
+</html>
